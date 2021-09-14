@@ -1,12 +1,6 @@
-def input_param_box(box):
-    for i in range(3):
-        box.append(int(input()))
-    return sorted(box)
+box_first = [int(input()) for i in range(3)]
+box_second = [int(input()) for i in range(3)]
 
-
-box_first, box_second = [], []
-box_first = input_param_box(box_first)
-box_second = input_param_box(box_second)
 
 if box_second == box_first:
     print("Boxes are equal")

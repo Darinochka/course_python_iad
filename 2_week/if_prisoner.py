@@ -10,9 +10,7 @@ def check_gap(features):
     return "NO"
 
 
-features = []
 n = 5
-for i in range(n):
-    features.append(int(input()))
+features = [int(input()) for i in range(n)]
 
 print(check_gap(features))

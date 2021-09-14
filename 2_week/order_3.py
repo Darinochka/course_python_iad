@@ -15,5 +15,5 @@ else:                       # b a
         pass                # a b c
     else:                   # b c a
         b, c = c, b         # a c b
-        
+    
 print(a, b, c)
