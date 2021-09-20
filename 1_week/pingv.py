@@ -1,14 +1,13 @@
 n = int(input())
 
 ping = """
-   _~_
-  (o o)
- /  V  \\
-/(  _  )\\
-  ^^ ^^
+lajdfd
+dfg
+dfgdfg
+dfg
 """
 
-ping = ping.split("\n")[1:-1]
+ping = ping.split("\n")
 
 for p in ping:
     for i in range(n):

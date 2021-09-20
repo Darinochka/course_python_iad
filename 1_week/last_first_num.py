@@ -2,5 +2,5 @@ n = int(input())
 # last number
 print(n % 10)
 
-# quantity_10
+# first number
 print(n // 10)
