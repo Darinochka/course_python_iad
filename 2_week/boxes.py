@@ -1,5 +1,5 @@
-box_first = [int(input()) for i in range(3)]
-box_second = [int(input()) for i in range(3)]
+box_first = sorted([int(input()) for i in range(3)])
+box_second = sorted([int(input()) for i in range(3)])
 
 
 if box_second == box_first:
