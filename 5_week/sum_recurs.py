@@ -9,7 +9,3 @@ def sum(a, b):
         return sum(a-1, b-1) + 1
     else:
         return sum(a-1, b-1) + 1 + 1
-
-
-a, b = int(input()), int(input())
-print(sum(a, b))

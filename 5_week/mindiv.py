@@ -10,7 +10,3 @@ def min_divisor(n):
             return min_d
         min_d += 2
     return n
-
-
-n = int(input())
-print(min_divisor(n))

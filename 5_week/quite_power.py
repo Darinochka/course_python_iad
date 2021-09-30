@@ -18,8 +18,3 @@ def power(a, n):
     if n >= 0:
         return quite_power(a, n)
     return 1/(quite_power(a, -n))
-
-
-a, n = float(input()), int(input())
-
-print(power(a, n))

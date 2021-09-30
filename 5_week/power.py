@@ -1,8 +1,13 @@
+# Дано действительное положительное число a и целоe число n. Вычислите an.
+# Решение оформите в виде функции power(a, n). Стандартной функцией
+# возведения в степерь пользоваться нельзя.
+
+
 def power(a, n):
-    if n == 0:
-        return 1
-    return a * power(a, n - 1)
-
-
-a, n = float(input()), int(input())
-print(power(a, n))
+    res = 1
+    for i in range(abs(n)):
+        res *= a
+    if n >= 0:
+        return res
+    else:
+        return 1 / res
