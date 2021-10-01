@@ -1,6 +1,16 @@
-from fraction import short_fraction
+from math import sqrt
 
 
-n, m = int(input()), int(input())
-p, q = short_fraction(n, m)
-print(p, q)
+def print_square(n):
+    if n != 0:           # input to zero
+        print_square(int(input()))
+        if sqrt(n) == int(sqrt(n)):
+            print(n, end=" ")
+            global key
+            key = True
+
+
+key = False
+print_square(int(input()))
+if not key:
+    print(0)

@@ -10,4 +10,4 @@ while x != 0:           # input to zero
 # while (x := int(input())) != 0:
 #     sum_nums += x
 
-print(sum_nums/q)
+print(sum_nums)
